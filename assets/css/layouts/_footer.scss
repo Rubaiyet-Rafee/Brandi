@@ -1,0 +1,96 @@
+.footer-area {
+  text-align: justify;
+  padding: 70px 0 20px 0;
+  background-color: #1ea78d;
+  .footer-logo {
+    p {
+      font-size: 13px;
+      color: #fff;
+      line-height: 25px;
+    }
+  }
+  .footer-subscribe {
+    h6 {
+      color: #fff;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      margin-bottom: 30px;
+      margin-bottom: 13px;
+    }
+    .subscribe-area {
+      .subscribe {
+        position: relative;
+        border: 0;
+        width: 100%;
+        padding: 7px;
+        background-color: transparent;
+        border: 1px solid #fff;
+      }
+      .subs {
+        position: absolute;
+        padding: 7px;
+        border: 0;
+        left: 670px;
+        font-size: 15px;
+        background-color: transparent;
+        color: #fff;
+      }
+    }
+    p {
+      margin-top: 15px;
+      font-size: 13px;
+      color: #fff;
+      line-height: 25px;
+    }
+  }
+  .footer-explore {
+    float: right;
+    color: #fff;
+    p {
+      font-weight: 700;
+    }
+    ul {
+      padding: 0;
+      li {
+        a {
+          color: #fff;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+  .footer-support {
+    float: right;
+    color: #fff;
+    p {
+      font-weight: 700;
+    }
+    ul {
+      padding: 0;
+      li {
+        a {
+          color: #fff;
+          line-height: 25px;
+        }
+      }
+    }
+  }
+  .footer-bottom {
+    margin-top: 40px;
+    p {
+      font-size: 13px;
+      color: #fff;
+      a {
+        font-weight: 700;
+        color: #000;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+
+

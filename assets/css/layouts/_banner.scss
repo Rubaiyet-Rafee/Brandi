@@ -1,0 +1,94 @@
+.banner-area {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  .banner-content {
+    position: relative;
+    padding-top: 208px;
+    padding-bottom: 208px;
+    color: $white-color;
+    .single-banner {
+      padding: 15px;
+      h2 {
+        font-size: 68px;
+        font-weight: 300;
+        span {
+          font-weight: 800;
+        }
+      }
+      h3 {
+        font-size: 48px;
+        font-weight: 300;
+        span {
+          color: $primary_color;
+        }
+      }
+      p {
+        font-weight: 300;
+        font-size: 18px;
+        margin-top: 25px;
+        padding: 0 191px;
+        margin-bottom: 25px;
+        position: relative;
+        &:before {
+          position: absolute;
+          content: "";
+          width: 30px;
+          height: 2px;
+          background-color: $primary-color;
+          top: 12px;
+          left: 455px;
+        }
+        &:after {
+          position: absolute;
+          content: "";
+          width: 30px;
+          height: 2px;
+          background-color: $primary-color;
+          top: 12px;
+          right: 455px;
+        }
+      }
+      ul {
+        padding: 0;
+        li {
+          display: inline-block;
+          a {
+            font-size: 12px;
+            padding: 0 8px;
+            color: rgba(255, 255, 255, 0.3);
+            &:hover {
+              color: $white-color;
+              transition: .3s all ease-in;
+            }
+          }
+        }
+      }
+    }
+    .slick-dots {
+      margin: 0;
+      padding: 0;
+      top: 50%;
+      position: absolute;
+      right: 0;
+      transform: translateY(-50%);
+      li {
+        &.slick-active button {
+          background-color: $primary_color;
+        }
+        button {
+          width: 10px;
+          height: 10px;
+          border: 0;
+          border-radius: 50%;
+          color: transparent;
+          background-color: transparent;
+          border: 1px solid #fff;
+          transition: 0.3s ease;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

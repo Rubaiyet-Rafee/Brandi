@@ -1,0 +1,41 @@
+.feature-area {
+  padding: 70px 0;
+  background-color: #f4f7f9;
+  .title-bottom {
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 35px 0 45px;
+      color: #5b646e;
+      padding: 0 61px;
+    }
+  }
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    color: #062033;
+  }
+  .feature-box {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 20px;
+    .feature-icon {
+      margin-left: 22px;
+      i {
+        border: 1px solid $primary-color;
+        padding: 10px;
+        border-radius: 50%;
+        color: $primary-color;
+      }
+    }
+    .feature-text {
+      text-align: justify;
+    }
+    p {
+      font-size: 13px;
+      padding: 0 37px 0 0;
+    }
+  }
+}

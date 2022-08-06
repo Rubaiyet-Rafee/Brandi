@@ -1,0 +1,79 @@
+.contact-area {
+  padding: 70px 0;
+  .title-bottom {
+    p {
+      font-size: 16px;
+      font-weight: 600;
+      margin: 35px 0 45px;
+      color: #5b646e;
+      padding: 0 61px;
+    }
+  }
+  .contact-padding {
+    padding: 0 70px;
+    .contact-left {
+      h3 {
+        color: #062033;
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 25px;
+      }
+      p {
+        font-size: 13px;
+        color: #6a737b;
+      }
+    }
+    .contact-center {
+      input[type="email"] {
+        float: right;
+      }
+      h3 {
+        color: #062033;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 32px;
+        margin-bottom: 25px;
+      }
+      input {
+        width: 48%;
+        border: 0;
+        border-bottom: 1px solid #6a737b;
+        padding: 0 10px;
+      }
+      textarea {
+        padding: 10px;
+        border: 0;
+        margin-top: 20px;
+        border-bottom: 1px solid #6a737b;
+        width: 100%;
+      }
+      .contact-submit {
+        i {
+          color: #0eb493;
+        }
+        span {
+          color: #333;
+        }
+      }
+    }
+    .contact-right {
+      ul {
+        li {
+          font-size: 16px;
+          text-align: center;
+          margin-top: 19px;
+          a {
+            i {
+              color: #555;
+              &:hover {
+                color: #0eb493;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+

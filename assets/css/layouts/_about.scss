@@ -1,0 +1,27 @@
+.about-area {
+  background-color: #fff;
+  padding: 70px 0;
+  .about-content {
+    h4 {
+      text-transform: uppercase;
+      font-family: "Playfair Display", serif;
+      font-weight: 700;
+      font-size: 22px;
+      color: #413d4b;
+      margin-bottom: 0 !important;
+    }
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      color: #817f86;
+      line-height: 21px;
+      margin-bottom: 0 !important;
+      margin-top: 28px;
+    }
+  }
+  a {
+    display: inline-block;
+    margin-top: 28px;
+  }
+}

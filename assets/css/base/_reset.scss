@@ -1,0 +1,58 @@
+@import 'color';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 15px;
+  overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+/* Button Css */
+.box-btn {
+  padding: 60px 220px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+/* Section Title Css */
+.section-title {
+  h2 {
+    font-size: 28px;
+    font-weight: 800;
+    color: $primary-color;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+  .section-title-devider {
+    position: relative;
+    &:before {
+      position: absolute;
+      content: "_______________";
+      color: #e6e8ea;
+      left: 500px;
+      bottom: 7px;
+    }
+    &:after {
+      position: absolute;
+      content: "_______________";
+      right: 500px;
+      color: #e6e8ea;
+      bottom: 7px;
+    }
+  }
+  i {
+    color: #cccccc;
+  }
+}
