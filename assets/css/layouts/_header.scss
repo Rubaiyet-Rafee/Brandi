@@ -1,18 +1,18 @@
 .header {
-    position: fixed;
-    z-index: 99;
-    width: 100%;
-    background-color: rgba(16, 22, 54, 0.2);
-    &.sticky {
-      background-color: rgb(14, 180, 147);
-    }
-    #nav {
-      li {
-        &.active {
-          a {
-            color: wheat;
-          }
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background-color: rgba(16, 22, 54, 0.2);
+  &.sticky {
+    background-color: rgb(14, 180, 147);
+  }
+  #nav {
+    li {
+      &.active {
+        a {
+          color: wheat;
         }
       }
     }
+  }
 }
